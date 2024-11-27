@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bengkel Motor | Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" >Bengkel Motor Sejahtera</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#profil">Profil Usaha</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#harga">Harga</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#form">Form</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Halaman Depan Promosi -->
+    <section class="hero text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-3">Promo Akhir Tahun</h1>
+            <p class="lead">Diskon hingga 50% untuk semua layanan perawatan motor!</p>
+            
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="layanan" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Menu Layanan</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="pexels-olly-3818585.jpg" class="card-img-top" alt="Menu 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Servis Rutin</h5>
+                            <p class="card-text">Servis berkala untuk menjaga motor Anda tetap prima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="pexels-daniel-andraski-197681005-13065690.jpg" class="card-img-top" alt="Menu 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Ganti Oli</h5>
+                            <p class="card-text">Penggantian oli berkualitas tinggi untuk mesin lebih awet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="pexels-olly-3817730.jpg" class="card-img-top" alt="Menu 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Perbaikan Kerusakan Motor</h5>
+                            <p class="card-text">perbaikan untuk motor anda.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Usaha -->
+    <section id="profil" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Profil Usaha</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Gambar-gambar dengan scroll manual menggunakan Bootstrap -->
+                    <div class="overflow-auto d-flex">
+                        <img src="pexels-cottonbro-4489742.jpg" class="img-fluid rounded me-3" alt="Profil foto Bengkel">
+                        <img src="pexels-olly-3817730.jpg" class="img-fluid rounded me-3" alt="Profil foto Bengkel 2">
+                        <img src="pexels-quang-nguyen-vinh-222549-12741638.jpg" class="img-fluid rounded me-3" alt="Profil foto Bengkel 3">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p>Bengkel Motor Sejahtera adalah bengkel motor terpercaya yang telah melayani pelanggan sejak 2010. Kami berfokus pada perawatan dan perbaikan sepeda motor berbagai merek dan tipe, baik motor bebek, sport, maupun matic. Dengan pengalaman lebih dari 10 tahun, kami siap memberikan layanan terbaik dengan menggunakan peralatan modern dan suku cadang yang berkualitas.Kami berkomitmen untuk memberikan pelayanan cepat, tepat, dan harga yang kompetitif. Didukung oleh mekanik berpengalaman, kami siap menangani berbagai jenis perbaikan mulai dari pergantian oli, perbaikan mesin, pengecekan kelistrikan, hingga perbaikan sistem rem dan suspensi.</p>
+                    <ul>
+                        <li>Pengalaman lebih dari 10 tahun</li>
+                        <li>Tim teknisi profesional</li>
+                        <li>Peralatan terkini</li>
+                        <li>Komitmen terhadap kualitas dan keamanan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <!-- Tabel Harga -->
+    <section id="harga" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Tabel Harga</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Layanan</th>
+                        <th>Deskripsi</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Servis Rutin</td>
+                        <td>Pengecekan dan perawatan mesin motor.</td>
+                        <td>Rp 100.000</td>
+                    </tr>
+                    <tr>
+                        <td>Ganti Oli</td>
+                        <td>Penggantian oli berkualitas tinggi.</td>
+                        <td>Rp 50.000</td>
+                    </tr>
+                    <tr>
+                        <td>Servis Rem</td>
+                        <td>Perawatan dan penggantian rem motor.</td>
+                        <td>Rp 70.000</td>
+                    </tr>
+                    <tr>
+                        <td>perbaikan motor</td>
+                        <td>Peengecekan dan  perbaikan motor.</td>
+                        <td>sesuai kondisi motor</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Form Isian -->
+    <section id="form" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Formulir Pesanan</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="service" class="form-label">Pilih Layanan</label>
+                    <select class="form-control" id="service" required>
+                        <option value="servis_rutin">Servis Rutin</option>
+                        <option value="ganti_oli">Ganti Oli</option>
+                        <option value="servis_rem">Servis Rem</option>
+                        <option value="perbaikan_motor">Perbaikan motor</option>
+                        <option value="lain-lain">lain-lain</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Pesan</label>
+                    <textarea class="form-control" id="message" rows="2"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Kontak Kami -->
+    <section id="kontak" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-5">Kontak Kami</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p ><strong>Alamat:</strong> Jl. Raya Leuwiliang, Cibeber I, Kec. Leuwiliang, Kabupaten Bogor, Jawa Barat </p>
+                    <p><strong>Nomor Telepon:</strong> (+062) 8578247****</p>
+                    <p><strong>Email:</strong> <a href="mailto:aryanurya***@gmail.com" class="text-white">aryanurya***@gmail.com</a></p>
+                    <p><strong>Instagram:</strong> <a href="https://instagram.com/bengkelmotorsejahtera" target="_blank" class="text-white">bengkelmotorsejahtera</a></p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="mb-4">Lokasi Kami</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.324872309711!2d106.6188367!3d-6.5673833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69d95b60488675%3A0x60bee106bba3cd44!2sSEJAHTERA%20MOTOR!5e0!3m2!1sid!2sid!4v1690000000000" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <a href="https://www.google.com/maps/dir//SEJAHTERA+MOTOR,+Jl.+Raya+Leuwiliang,+Cibeber+I,+Kec.+Leuwiliang,+Kabupaten+Bogor,+Jawa+Barat+16640/@-6.5673951,106.3304399,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e69d95b60488675:0x60bee106bba3cd44!2m2!1d106.6188367!2d-6.5673833?authuser=0&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn btn-primary mt-3">Lihat di Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Pengembang -->
+    <section id="developer" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Profil Pengembang</h2>
+            <p>Website ini dibuat  oleh  <strong>Arya nuryawan</strong>. Pembuatan website ini bertujuan untuk memenuhi salah satu tugas Ujian Tengah Semester (UTS) pada mata pelajaran Dasar-Dasar Pemrograman Web. Proyek ini dirancang untuk menerapkan teori dan keterampilan yang telah dipelajari selama perkuliahan, dengan fokus pada pembuatan halaman web yang interaktif dan responsif. Dengan adanya proyek ini, diharapkan mahasiswa dapat memahami dan menguasai dasar-dasar pengembangan web serta mampu mengaplikasikannya secara nyata melalui implementasi konsep pemrograman yang relevan. Proyek ini juga memberikan kesempatan untuk meningkatkan kreativitas, keterampilan desain, dan kemampuan teknis dalam membangun solusi berbasis web yang efektif.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024.  Arya nuryawan. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

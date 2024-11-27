@@ -1,0 +1,177 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #1f69b3;
+}
+
+/* Hero Section (Promosi) */
+.hero {
+    background-image: url('pexels-quang-nguyen-vinh-222549-12741638.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table td {
+    background-color: #f8f9fa;
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1.1rem;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+/* Contact Section */
+#kontak iframe {
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: white;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.modal-body .form-control {
+    border-radius: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .navbar-toggler {
+        background-color: #fff;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .form-control {
+        font-size: 1rem;
+    }
+
+    .table td, .table th {
+        padding: 10px;
+    }
+}
