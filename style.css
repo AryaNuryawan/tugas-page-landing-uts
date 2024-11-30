@@ -152,7 +152,7 @@ footer p {
 /* Responsive Styles */
 @media (max-width: 767px) {
     .navbar-toggler {
-        background-color: #fff;
+        background-color: rgb(0, 0, 0);
     }
 
     .hero h1 {
